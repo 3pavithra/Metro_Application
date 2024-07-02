@@ -23,5 +23,6 @@ return profileservice.SaveServiceprofile(profileDto);
     @GetMapping("/all")
     public List<ProfileDto> getAllControllerProfile(ProfileDto profileDto){
 return profileservice.getServiceprofile();
+
     }
 }
