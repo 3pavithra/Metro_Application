@@ -10,9 +10,10 @@ import lombok.Data;
 @Data
 public class ProfileDto {
    
-   @GeneratedValue(strategy = GenerationType.IDENTITY)
+  
    @Id
-    private int roll_no;
+   @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String name;
     private String address;
     private String email;
